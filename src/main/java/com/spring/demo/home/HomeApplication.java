@@ -20,4 +20,16 @@ public class HomeApplication {
 		return "Hello";
 	}
 
+	@GetMapping("/details")
+	public String getDetails()
+	{
+		return "Details";
+	}
+
+	@GetMapping("/welcome")
+	public String getWelcome()
+	{
+		return "Welcome";
+	}
+
 }
